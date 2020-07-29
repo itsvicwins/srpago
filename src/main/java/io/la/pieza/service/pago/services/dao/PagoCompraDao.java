@@ -21,7 +21,6 @@ import org.springframework.transaction.support.DefaultTransactionDefinition;
 
 import io.la.pieza.service.pago.common.ConstantesPagos;
 import io.la.pieza.service.pago.entitys.Pago;
-import io.la.pieza.service.pago.services.dao.IPagoCompraDao;
 import io.la.pieza.service.pago.response.CompraGasolinaResponse;
 
 @Transactional

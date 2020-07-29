@@ -1,7 +1,5 @@
 package io.la.pieza.ws;
 
-import static org.junit.Assert.*;
-
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
@@ -58,20 +56,14 @@ public class TestClienteWSPagoGasolina {
 			}
 
 		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (JsonParseException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (JsonMappingException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
 	}
 
 }
